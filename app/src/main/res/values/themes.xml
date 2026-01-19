@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.JatraDriver" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <item name="android:colorBackground">@color/bg_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+
+        <item name="colorOnBackground">@color/on_bg</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+
+        <!-- These control your TextView/EditText when you use ?android:attr/... -->
+        <item name="android:textColorPrimary">@color/on_bg</item>
+        <item name="android:textColorSecondary">@color/hint_color</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+        <item name="android:editTextColor">@color/on_surface</item>
+
+        <item name="android:statusBarColor">@color/bg_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface">
+
+    <!-- Logo at the top -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/jatra" />
+
+    <!-- Button Container -->
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="32dp">
+
+        <Button
+            android:id="@+id/privateBus"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16dp"
+            android:text="Private Bus Tracking"
+            android:textColor="@color/white"
+            android:backgroundTint="#4A6DA7"
+
+        />
+
+
+
+
+        <!-- Driver Login Button -->
+        <Button
+            android:id="@+id/publicBus"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16dp"
+            android:text="Public Bus Tracking"
+            android:textColor="@color/white"
+            android:backgroundTint="#4A6DA7"
+            android:elevation="4dp"
+        />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
